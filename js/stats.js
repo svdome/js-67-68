@@ -35,9 +35,9 @@ export function getLastGrade(grades) {
  */
 export function isTestTooEasy(grades) {
 	if(grades.length <= 5) {
-		return true
+		return "Простой тест"
 	}
-	return false
+	return "Сложный тест"
 }
 
 /**
